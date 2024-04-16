@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>-->
+        <!--<script src="script.js"></script>-->
+        <title>Vedesh here!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="https://pbs.twimg.com/media/GHuCzNXbYAAaNUi?format=jpg&name=medium" type="image/x-icon">
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let underdevfeature = document.querySelector('.underdev');
+                underdevfeature.addEventListener('click', function() {
+                    underdevfeature.parentElement.querySelector('.udevmessage').innerHTML = '<div class="alert alert-primary" role="alert">This feature is under development</div>';
+                });
+            })
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class="navigation">
+                <nav class="navbar bg-light fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#" style="font-size: 18px;">Welcome to My Digital Portfolio!</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hello Vedesh Here!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link underdev" href="#">Blog</a>
+                                        <span class="udevmessage"></span>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            My Projects
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Coming Soon!</a></li>
+                                            <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">coming soon!</a></li>
+                                            <li><a class="dropdown-item" href="https://github.com/VedeshP/cs50_finance_final" target="blank">CS50 Finance</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex mt-3" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search (under development)" aria-label="Search">
+                                    <button class="btn btn-outline-success underdev" type="submit">Search</button>
+                                </form>
+                                <span class="udevmessage"></span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="intro-name">
+            <div class="p-3 mb-2 bg-info text-dark"><span class="auto-type" style="color: #ffc900;"></span></div>
+        </div>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["Hi, I'm Vedesh", "Vedesh Pandya"],
+                typeSpeed: 125,
+                backSpeed: 50,
+                loop: true
+            })
+        </script>
+        <div class="aboutme">
+            <div class="abmetext">About Me</div>
+            <div class="introtxt">"Hello! I'm <span class="vp">Vedesh Pandya</span>, a Computer Science and Engineering undergraduate from
+                <span class="india"><img src="https://pbs.twimg.com/media/GHzRaAobwAA_GLo?format=jpg&name=small" style="height: 25.9px; width: 39px; border-radius: 5px;"></span>.<br>
+                My passion lies in achieving peak performance by harnessing the power of <span class="flow"><a href="https://youtu.be/bzW-zV4JhK4?si=S06dyZKKv2jZms8Z" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about the <strong><u>Flow State</u></strong>"><img src="https://pbs.twimg.com/media/GHzQxuKaUAArUiP?format=jpg&name=large" style="height: 23.76px; width: 42.24px; border-radius: 5px;"></a></span>,<br>
+                while also delving deep into the realms of Artificial Intelligence and Machine Learning.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="skills">
+        <div class="skilltext">Skills</div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about The <strong><u>C</u></strong> programming language"> <img class="tech-logo" src="https://pbs.twimg.com/media/GJfoxB-XgAARZZx?format=png&name=small" style="height: 81px; width: 72px; border-radius:10px;"></a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Level: Intermediate" data-bs-trigger="focus" data-bs-content="Strong understanding of core concepts like variables, data types, operators, control flow statements (if/else, loops).
+                                                                                                                                                                                                                                  Experience with functions, pointers. Learnt from CS50x">
+                Know More
+            </button>
+        </div>
+
+        <div>
+            <a href="https://www.python.org/" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about <strong><u>Python</u></strong>"> <img class="tech-logo" src="https://pbs.twimg.com/media/GJfoxBgXoAAhty5?format=jpg&name=large" style="height: 61.44px; width: 56.07; border-radius:10px;"></a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Level: Beginner" data-bs-trigger="focus" data-bs-content="Familiar with basic syntax, data structures (lists, dictionaries), and control flow.Currently learning python from from CS50x">
+                Know More
+            </button>
+        </div>
+        <div>
+            <a href="https://html.com/html5/" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about <strong><u>HTML5</u></strong>"> <img class="tech-logo" src="https://pbs.twimg.com/media/GJfogXbW8AA1W5J?format=png&name=240x240" style="height: 61.2px; width: 61.2px; border-radius:10px;"></a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Level: Beginner" data-bs-trigger="focus" data-bs-content="Solid understanding of HTML structure, elements, and attributes.
+                                                                                                                                                                                                                              Ability to create well-formed and semantic HTML documents.">
+                Know More
+            </button>
+        </div>
+        <div>
+            <a href="https://css3.com/" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about <strong><u>CSS3</u></strong>"> <img class="tech-logo" src="https://pbs.twimg.com/media/GJfogXYWgAAJdK_?format=png&name=large" style="height: 102.4px; width: 72.6px; border-radius:10px;"></a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Level: Beginner" data-bs-trigger="focus" data-bs-content="Proficient in writing CSS styles for basic layout and formatting.
+                                                                                                                                                                                                                              Understanding of selectors, properties, and applying styles.">
+                Know More
+            </button>
+        </div>
+        <div>
+            <a href="https://en.wikipedia.org/wiki/JavaScript" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about <strong><u>JavaScript</u></strong>"> <img class="tech-logo" src="https://pbs.twimg.com/media/GJfogXTXcAAroWw?format=png&name=medium" style="height: 61.44px; width: 56.07; border-radius:10px;"></a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Level: Beginner" data-bs-trigger="focus" data-bs-content="Good grasp of JavaScript fundamentals: variables, data types, functions, DOM manipulation.">
+                Know More
+            </button>
+        </div>
+        <div>
+            <a href="https://flask.palletsprojects.com/en/3.0.x/" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about <strong><u>Flask</u></strong>"> <img class="tech-logo" src="https://pbs.twimg.com/media/GJforC-WkAAJFZL?format=png&name=large" style="height: 61.44px; width: 56.07;"></a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Level: Intermediate" data-bs-trigger="focus" data-bs-content="Understanding of building basic web applications using Flask framework.
+                                                                                                                                                                                                                                  Familiarity with Flask concepts like routes, templates, and handling user interactions (forms, data). Built CS5O finance and Birthdays using Flask">
+                Know More
+            </button>
+        </div>
+        <div>
+            <a href="https://www.sqlite.org/" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about <strong><u>SQLite</u></strong>"> <img class="tech-logo" src="https://pbs.twimg.com/media/GJforCsXEAAXu7o?format=jpg&name=4096x4096" style="height: 61.44px; width: 56.07; border-radius:10px;"></a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Level: Intermediate" data-bs-trigger="focus" data-bs-content="Ability to create and manage SQLite databases.
+                                                                                                                                                                                                                                  Understanding of SQL queries for data manipulation (CRUD - Create, Read, Update, Delete). Built CS50 Finance (CS50X 2024) and Birthdays with it. Visit my Github profile for more.">
+                Know More
+            </button>
+        </div>
+        <div>
+            <a href="https://getbootstrap.com/" target="blank" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="Know more about <strong><u>Bootstrap</u></strong>"> <img class="tech-logo" src="https://pbs.twimg.com/media/GJforC-XsAAJL15?format=png&name=900x900" style="height: 61.44px; width: 56.07; border-radius:10px;"></a>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="Level: Beginner" data-bs-trigger="focus" data-bs-content="Proficient in using Bootstrap for basic web page layout and styling.
+                                                                                                                                                                                                                              Ability to create responsive designs that adapt to different screen sizes.">
+                Know More
+            </button>
+        </div>
+        <script>
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+            const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+            const popover = new bootstrap.Popover(document.querySelector('button[data-bs-toggle="popover"]'), {
+                container: 'body',
+                trigger: 'focus'
+            })
+        </script>
+    </div>
+    <div class="books">
+        <div class="bookshelf-heading">Bookshelf</div>
+        <div class="bookcard">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://pbs.twimg.com/media/GJ5KKxWXAAEen39?format=jpg&name=medium" class="img-fluid rounded-start" alt="The Productivity Project">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">The Productivity Project</h5>
+                            <p class="card-text"><small class="text-body-secondary">By <strong>Chris Bailey</strong></small></p>
+                            <p class="card-text">This book really taught me what productivity actually means. "Productivity is about how much you accomplish." I came to understand how Time, Attention and Energy are vitally important. It taught me a lot practical lessons about productivity from his "AYOP"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bookcard">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://pbs.twimg.com/media/GJ5K8VYWgAAoM8G?format=jpg&name=medium" class="img-fluid rounded-start" alt="Hyperfocus">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Hyperfocus</h5>
+                            <p class="card-text"><small class="text-body-secondary">By <strong>Chris Bailey</strong></small></p>
+                            <p class="card-text">Hyperfocus: intense focus and concentration. Scatterfocus: active recovery for brain.
+                                While acheiving the state of hyperfocus requires training your attention muscle extensively,
+                                the book really helped me have good awareness about the state of my mind and helped me shape a
+                                different perspective on focus and productivity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bookcard">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://pbs.twimg.com/media/GJ5K8UdXYAEa7Qo?format=jpg&name=medium" class="img-fluid rounded-start" alt="Hyperfocus">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Atomic Habits</h5>
+                            <p class="card-text"><small class="text-body-secondary">By <strong>James Clear</strong></small></p>
+                            <p class="card-text">Making Good Habits and Breaking Bad Ones. This book teaches it in a science backed way and teaches a lot about our brain and its psychology.
+                                It really helped me build a system of good habits and helped me break bad ones.
+                                "First man makes habits, and then habits make man."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bookcard">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://pbs.twimg.com/media/GJ5K8UbXcAAwZoY?format=jpg&name=medium" class="img-fluid rounded-start" alt="Deep Work">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Deep Work</h5>
+                            <p class="card-text"><small class="text-body-secondary">By <strong>Cal Newport</strong></small></p>
+                            <p class="card-text">Deep Work: this concept is glued to my mind by excellent writing of the author Cal Newport.
+                                Being a knowledge worker, how to thrive in a knowledge economy?
+                                The answer I got is : Deep Work</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bookcard">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="https://pbs.twimg.com/media/GJ5K8VpWkAEIcxY?format=jpg&name=small" class="img-fluid rounded-start" alt="BATTBQ">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Brief Answers to the Big Questions</h5>
+                            <p class="card-text"><small class="text-body-secondary">By <strong>Stephen Hawking</strong></small></p>
+                            <p class="card-text">Reading this book as a teenager, it felt like the great Stephen Hawking was personally answering all my questions to the mysteries of existence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+<footer>
+    <div class="connect">
+        <div style="margin-top: 9px; margin-bottom: 5px;">Connect with me!</div>
+        <div class="logo">
+            <a href="https://twitter.com/Vedesh_p" target="blank"><img class="twitter" src="https://pbs.twimg.com/media/GGnSgKraIAArU25?format=png&name=360x360"></a>
+            <a href="https://www.linkedin.com/in/vedesh-pandya-5394a2284/" target="blank"><img class="logosqr" src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw"></a>
+            <a href="https://discord.com/users/1183361262848065618" target="blank"><img class="logosqr" src="https://play-lh.googleusercontent.com/0oO5sAneb9lJP6l8c6DH4aj6f85qNpplQVHmPmbbBxAukDnlO7DarDW0b-kEIHa8SQ=w240-h480-rw"></a>
+            <a href="https://medium.com/@vedeshskp" target="blank"><img class="logosqr" src="https://play-lh.googleusercontent.com/hB9t3Z-mi284_49HA3nAuhO-W5Cyhje7r2P9McdgORoVCd-0SV54c12NMQWLHnqALw"></a>
+            <a href="https://github.com/VedeshP" target="blank"><img class="logosqr" src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU"></a>
+            <a href="https://selfimprovement101productive.blogspot.com/" target="blank"><img class="logosqr" src="https://play-lh.googleusercontent.com/cWG9-bk2_zLdKsN9vsYEdbCReVfzgXU6FeHUmLI8a24FoZ05TpOLYXInCQ278FTwCw"></a>
+        </div>
+        <div style="margin-bottom: 5px;">Leave Your Feedback Here</div>
+        <a href="https://forms.gle/Eji8N42XY5Vu2nMb9" target="blank"><button type="button" class="btn btn-primary btn-sm">Feedback</button></a>
+    </div>
+</footer>
+<div style="font-weight: 100; text-align: center;color: grey; font-size: 12px">
+    <footer class="blackquote-footer">This page was made for <u><b>CS50</b></u> by <u>VedeshP</u></footer>
+</div>
+</body>
+
+</html>
